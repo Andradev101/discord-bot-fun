@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app/index.js",
+    "command": "node app/deploy-commands.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "audic": "^3.0.1",
+    "axios": "^1.2.2",
+    "discord": "^0.8.2",
+    "discord.js": "^14.7.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
